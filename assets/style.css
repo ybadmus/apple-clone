@@ -127,3 +127,51 @@ q::after {
   content: '';
   content: none;
 }
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  .billboard {
+      width: 100%;
+  }
+  
+  .hero {
+      width: 1440px;
+      background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+      margin: 0 auto;
+      height: 657px;
+      cursor: pointer;
+  }
+  
+  @media screen and (max-width: 992px) {
+      .hero {
+          width: 992px;
+      }
+    }
+    
+    /* On screens that are 600px or less, set the background color to olive */
+    @media screen and (max-width: 600px) {
+      .hero {
+          width: 600px;
+      }
+    }
+  
+  .promo {
+      height: 200px;
+      width: 100%;
+      z-index: 1;
+  }
+  
+  .promo ul {
+      z-index: 1;
+      overflow: hidden;
+      margin: 0 auto;
+      min-width: 1024px;
+      width: 100%;
+      max-width: 1440px;
+      height: 200px;
+      text-align: center;
+  }

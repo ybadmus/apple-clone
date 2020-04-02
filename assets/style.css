@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -91,7 +87,6 @@ video {
   vertical-align: baseline;
 }
 
-/* HTML5  display-role reset for older browsers */
 article,
 aside,
 details,
@@ -159,7 +154,6 @@ table {
   }
 }
 
-/* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .hero {
     width: 600px;
@@ -201,6 +195,10 @@ table {
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#icon-logo {
+  height: 16px;
 }
 
 #promo1 {
@@ -277,6 +275,7 @@ table {
 }
 
 .page-navbar {
+  border-radius: 5px;
   width: fit-content;
   display: flex;
   background: #59615f;
@@ -285,7 +284,6 @@ table {
 }
 
 .navbar-items {
-  border-radius: 4px;
   display: table;
   width: 845px;
   table-layout: fixed;
@@ -332,8 +330,17 @@ table {
   height: 19px;
   padding: 2px 18px 1px 22px;
   border-radius: 10px;
-  background: #e8ebea;
+  background: #59615f;
+  background-image: linear-gradient(#747474, #5e5e5e 50%, #6c6c6c 50%, #8f8f8f);
   border: 1px solid #7e7d7c;
+}
+
+.searchbox i {
+  font-size: 17px;
+  color: white;
+  text-shadow: 0 1px rgb(65, 65, 65);
+  position: absolute;
+  margin: 5px;
 }
 
 .homefooter {

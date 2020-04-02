@@ -1,3 +1,5 @@
+# Building with Backgrounds and Gradients - Apple.com
+
 A clone of an old Apple website written in HTML and using CSS for styling.
 
 The purpose of this project is to apply the learned topics about CSS3 basics, box model, floats, positioning, flexbox, grid, backgrounds and, gradients.
@@ -15,7 +17,7 @@ The real webpage can be found here - (https://web.archive.org/web/20140301004610
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ybadmus.github.io/apple-clone/)
 
 
 ## Getting Started

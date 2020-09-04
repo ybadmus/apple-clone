@@ -162,9 +162,9 @@ table {
 
 .promo {
   height: 200px;
-  width: fit-content;
-  z-index: 1;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .promo ul {
@@ -276,11 +276,11 @@ table {
 
 .page-navbar {
   border-radius: 5px;
-  width: fit-content;
   display: flex;
   background: #59615f;
   background-image: linear-gradient(#747474, #5e5e5e 50%, #6c6c6c 50%, #8f8f8f);
   margin: 0 auto;
+  width: 1040px;
 }
 
 .navbar-items {
